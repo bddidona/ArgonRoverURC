@@ -1,0 +1,8 @@
+prefix=/home/ben/catkin/catkin_ws_argon/install
+
+Name: rover_manual
+Description: Description of rover_manual
+Version: 0.1.0
+Cflags: -I/home/ben/catkin/catkin_ws_argon/install/include
+Libs: -L/home/ben/catkin/catkin_ws_argon/install/lib 
+Requires: joy roscpp std_msgs message_runtime serial

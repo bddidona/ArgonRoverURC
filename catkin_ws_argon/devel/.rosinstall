@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ben/catkin/catkin_ws_argon/devel/setup.sh

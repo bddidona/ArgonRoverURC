@@ -1,0 +1,9 @@
+<launch>
+	<node pkg="joy" type="joy_node" name="joy_node" />
+	<node pkg="rover_manual" type="joystick" name="joystick"/>
+	<node pkg="rover_manual" type="manual_control" name="manual_control" output="screen"/>
+	
+	<node pkg="rover_manual" type="drive_mode_control" name="drive_mode_control" output="screen"/>
+	<node pkg="rover_manual" type="vesc_driver_node" name="vesc_left" args="port=/dev/ttyUSB0  " output="screen"/>
+	<node pkg="rover_manual" type="vesc_driver_node" name="vesc_right" args="port=/dev/ttyUSB1  " output="screen"/>
+</launch>
