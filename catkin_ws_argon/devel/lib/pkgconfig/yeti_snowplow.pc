@@ -1,0 +1,8 @@
+prefix=/home/ben/Catkin/catkin_ws_argon/devel
+
+Name: yeti_snowplow
+Description: Description of yeti_snowplow
+Version: 0.2.0
+Cflags: -I/home/ben/Catkin/catkin_ws_argon/devel/include
+Libs: -L/home/ben/Catkin/catkin_ws_argon/devel/lib 
+Requires: joy roscpp std_msgs message_runtime serial laser_geometry sensor_msgs

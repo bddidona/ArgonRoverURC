@@ -1,0 +1,2 @@
+rover_manual
+-DCATKIN_DEVEL_PREFIX=/home/ben/catkin/catkin_ws_argon/devel -DCMAKE_INSTALL_PREFIX=/home/ben/catkin/catkin_ws_argon/install -G Unix Makefiles
